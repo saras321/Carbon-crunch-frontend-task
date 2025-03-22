@@ -25,7 +25,6 @@ Technologies Used
 
 • JavaScript for button interactions
 
-Installation
 
 
 How to Use
