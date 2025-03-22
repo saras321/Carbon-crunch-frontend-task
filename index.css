@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #f0fdf4;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  border-bottom: 2px solid #e0e0e0;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+nav a:hover {
+  background-color: #a4f39de9;
+  text-decoration: underline;
+}
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.login-btn {
+  background-color: #f0fdf4;
+  color: #000;
+}
+.login-btn:hover {
+  background-color: #155724;
+}
+.demo-btn {
+  background-color: #4caf50;
+  color: white;
+}
+.demo-btn :hover {
+  background-color: #155724;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-top: 20px;
+  color: #222;
+}
+.hero h1 span {
+  color: #4caf50;
+}
+.hero p {
+  margin-top: 10px;
+  color: #555;
+}
+.save-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+.save-btn:hover {
+  background-color: #0e7437;
+}
+.hero-buttons button {
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.hero-buttons button :hover {
+  background-color: #920202;
+}
+.calc-btn {
+  background-color: #fff;
+  border: 2px solid #4caf50;
+  color: #4caf50;
+}
+.calc-btn:hover {
+  background-color: #ffffff1a;
+}
+.demo-btn {
+  background-color: #4caf50;
+  color: white;
+}
+.demo-btn :hover {
+  background-color: #350b83;
+}
+.second-demo {
+  background-color: #4caf50;
+  color: white;
+}
+.second-demo:hover {
+  background-color: #155724;
+}
+.stats {
+  background-color: #222;
+  color: white;
+  padding: 50px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.stat-card {
+  padding: 30px;
+  border-radius: 10px;
+}
+.green {
+  background-color: #4caf50;
+}
+.dark {
+  background-color: #333;
+}
+.light-green {
+  background-color: #d4edda;
+  color: #155724;
+}
