@@ -2,6 +2,7 @@
 
 Carbon Crunch - Simple Landing Page
 
+LIVE SITE: https://saras321.github.io/carbon-crunch-frontend-task/
 
 
 This is a simple landing page project designed using HTML, CSS, and JavaScript. It has a clean design with hover effects, buttons, and an animated navbar underline.
