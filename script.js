@@ -8,5 +8,5 @@ document.querySelector(".calc-btn").addEventListener("click", function () {
   alert("Free Carbon Calculator is under development.");
 });
 document.querySelector(".second-demo").addEventListener("click", function () {
-  alert("Free Carbon Calculator is under development.");
+  alert("Book demo site is under development.");
 });
